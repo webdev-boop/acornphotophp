@@ -1,4 +1,19 @@
 ﻿<? require "bootstap.php"; />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+<style>
+
+.footer-link {
+    color: #eee;
+    font-size: 13px;
+    transition: all .3s;
+    }
+
+    .footer-link:hover {
+    color: #70aed2;
+    text-decoration: none;
+    }
+
+</style>
 
 <footer class="bg-dark px-5">
     <div class="container-fluid">
@@ -21,7 +36,7 @@
             </div>
             <div class="col-lg-2 col-sm-6">
                 <h5 class="pb-3">Need Help?</h5>
-                <ul class="list-unstyled">
+                <ul class="list-unstyled pl-5">
                     <li><a href="#" class="footer-link text-uppercase">Customer Service</a></li>
                     <li><a href="#" class="footer-link text-uppercase">Online Chat</a></li>
                     <li><a href="#" class="footer-link text-uppercase">Support</a></li>
@@ -30,7 +45,7 @@
             </div>
             
            
-                <ul class="list-inline">
+                <ul class="list-inline pl-5">
                     <li class="list-inline-item"><i class="fab fa-facebook-square fa-2x text-primary"></i></li>
                     <li class="list-inline-item"><i class="fab fa-google-plus fa-2x text-danger"></i></li>
                     <li class="list-inline-item"><i class="fab fa-instagram fa-2x text-danger"></i></li>

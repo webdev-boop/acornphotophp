@@ -11,20 +11,22 @@
 ?>
 <html lang="en">
 <head>
-    
-    
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
-
+   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
 </head>
+<style>
+body {
+  padding-bottom: 0px !important;
+  margin-bottom: -40px !important;
+}
+</style>
+
 <body>
-
-
     <div class="col-md-3"></div>
     <div class="col-md-6 well">
         
         <hr style="border-top:1px dotted #2B1919;" />
         <div class="col-md-2"></div>
-        <div class="col-md-8 text-dark">
+        <div class="col-md-8 text-light">
             <h4>Welcome!</h4>
             <br />
             <?php

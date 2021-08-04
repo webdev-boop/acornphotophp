@@ -14,11 +14,6 @@
 
 </head>
 <style>
- 
-  .collections {
-         background-color: #151f20;
-     }
-
   
  .card-shadow {
     box-shadow: 5px 8px 20px #444;
