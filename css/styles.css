@@ -87,47 +87,10 @@ body, html {
 
 
     /* mission */
-.Mission {
-    background: #2B1919;
-}
-
-.underline {
-    width: 150px;
-    border: 3px solid #eee;
-    margin: auto;
-}
-
-.fromLeft {
-    animation-name: fromLeft;
-    animation-duration: 3s;
-}
-
-.fromRight {
-    animation-name: fromRight;
-    animation-duration: 3s;
-}
-
-@keyframes fromLeft {
-    0% {
-        transform: translateX(-120px);
-        opacity: 0;
+   .Mission {
+    background: #1B0E0E;
     }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
 
-@keyframes fromRight {
-    0% {
-        transform: translateX(60px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
 
     /* collection */
 
@@ -155,14 +118,6 @@ body, html {
     /* end of collection */
 
 
-
-    /* customers */
-
-    .customers {
-    background-color: #151f20;
-    }
-
-    /* end of customers */
 
 
     /* pricing */
@@ -243,7 +198,7 @@ body, html {
     /* end of pricing */
 
 
-  
+
 
     /* footer */
 

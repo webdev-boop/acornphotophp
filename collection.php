@@ -14,7 +14,10 @@
 
 </head>
 <style>
-  
+  #collection {
+margin-bottom: -25px;
+padding-bottom: 0;
+}
  .card-shadow {
     box-shadow: 5px 8px 20px #444;
     }
@@ -44,7 +47,7 @@
             <!-- title -->
             <div class="row text-light text-center">
                 <div class="col m-4">
-                    <h2 class="display-4 mb-4">Collection</h2>
+                    <h2 class="display-4 my-4">Collection</h2>
                     <div class="underline mb-4"></div>
 
                 </div>

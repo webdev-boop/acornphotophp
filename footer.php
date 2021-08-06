@@ -29,7 +29,7 @@
                     <li><a href="Mission.php" class="footer-link">Mission</a></li>
                     <li><a href="Collection.php" class="footer-link">Collection</a></li>
 
-                    <li><a href="Customer.php" class="footer-link">Customer</a></li>
+                    <li><a href="Reviews.php" class="footer-link">Reviews</a></li>
                     <li><a href="Pricing.php" class="footer-link">Pricing</a></li>
                     
                 </ul>

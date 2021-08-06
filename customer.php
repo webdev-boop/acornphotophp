@@ -13,13 +13,30 @@
     <script type="text/javascript" src="scripts.js"></script>
 
 </head>
+
 <style>
-    .customers {
-    background-color: #151f20;
-    }
+   section {
+margin-bottom: -120px;
+padding-bottom: 0;
+}
 </style>
 
-
+<body>
+<script>
+ $(window).scroll(function() {
+        let position = $(this).scrollTop();
+        if(position >= 4300 ) {
+            $(".card-1").addClass("moveFromLeft");
+            $(".card-2").addClass("moveFromBottom");
+            $(".card-3").addClass("moveFromRight");
+        } else {
+            $(".card-1").removeClass("moveFromLeft");
+            $(".card-2").removeClass("moveFromBottom");
+            $(".card-3").removeClass("moveFromRight");
+        }
+    });
+});
+</script>
 <section id="Customer" class="customers p-5">
     <div class="container-fluid">
         <!-- title -->
@@ -87,23 +104,6 @@
             </div>
         </div>
     </div>
-
-<script>
- $(window).scroll(function() {
-        let position = $(this).scrollTop();
-        if(position >= 4300 ) {
-            $(".card-1").addClass("moveFromLeft");
-            $(".card-2").addClass("moveFromBottom");
-            $(".card-3").addClass("moveFromRight");
-        } else {
-            $(".card-1").removeClass("moveFromLeft");
-            $(".card-2").removeClass("moveFromBottom");
-            $(".card-3").removeClass("moveFromRight");
-        }
-    });
-});
-
-</script>
-
 </section>
+</body>
 <?php include "footer.php"; ?>

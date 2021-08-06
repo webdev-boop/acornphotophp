@@ -41,7 +41,7 @@
                 <li class="nav-item"><a href=Mission.php class="nav-link m-2 menu-item">Mission</a></li>
                 <li class="nav-item"><a href=Collection.php class="nav-link m-2 menu-item">Collection</a></li>
 
-                <li class="nav-item"><a href=Customer.php class="nav-link m-2 menu-item">Customer</a></li>
+                <li class="nav-item"><a href=Reviews.php class="nav-link m-2 menu-item">Reviews</a></li>
                 <li class="nav-item"><a href=Pricing.php class="nav-link m-2 menu-item">Pricing</a></li>
                 
             </ul>

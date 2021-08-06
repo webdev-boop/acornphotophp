@@ -13,10 +13,11 @@
 <head>
    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
 </head>
+
 <style>
-body {
-  padding-bottom: 0px !important;
-  margin-bottom: -40px !important;
+ .hero-image {
+margin-bottom: -25px;
+padding-bottom: 0;
 }
 </style>
 
